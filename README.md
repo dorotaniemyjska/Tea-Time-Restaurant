@@ -1,3 +1,1 @@
-# tea-time-restaurant
-"# tea-time-restaurant" 
-# tea-time-restaurant
+# tea-time-restaurant wyzwanie z Kodillą
