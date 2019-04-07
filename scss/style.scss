@@ -18,7 +18,37 @@ $transition: all 0.5s;
 *:focus {
   box-shadow: none;
 }
+.navigation {
+  background-color: #4d4b51;
+  padding: 12px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  letter-spacing: 2px;
+  top:0;
+}
 
+.navigation ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.navigation ul li a {
+  font-family: 'Caveat',sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.navigation ul li a:hover {
+  color: #878787;
+}
 body,
 html {
   color: $color-text;
@@ -49,35 +79,7 @@ img {
   margin: 0 auto;
   padding: 0 20px;
 }
-.navigation{
-  background-color:#4d4b51;
-  padding: 12px 0;
-  text-align:center;
-  position: fixed;
-  width: 100%;
-  z-index: 9999;
-  letter-spacing: 1px;
-}
 
-.navigation ul{
-  margin: 0;
-  padding: 0;
-}
-
-.navigation ul li{
-  display: inline-block;
-  margin-right:30px;
-}
-
-.navigation ul li a{
-  font-family: 'Caveat',sans-serif;
-  font-size: 25px;
-  font-weight:bold;
-  color:white;
-}
-.navigation ul li a:hover{
-  color:#878787;
-}
 
 .splash {
   position: relative;
@@ -174,6 +176,11 @@ img {
   margin: 24px 0 40px 0;
   padding-right: 15px;
 }
+.feature img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
 .feature-title {
   margin: 24px 0 0 0;
   font-family: $font-header;
@@ -247,7 +254,26 @@ img {
   font-size:20px;
   font-weight:bold;
   font-family: 'Caveat', cursive,sans-serif;
-  
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 25px 7px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+  padding: 7px;
+  text-align: center;
+  background-color: #444;
+  color: white;
 }
 
 .flickity-page-dots .dot{
@@ -361,6 +387,19 @@ img {
 }
 
 @media (max-width:640px){
+ .navigation ul li {
+  display:block;
+}
+  
+  .navigation ul li a{
+    float: none;
+    text-align: center;
+  }
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 7px;
+  }
   .page-footer p{
     display: block; 
     height: 55px; 
@@ -372,6 +411,7 @@ img {
   .navigation{
     position:static;
   }
+ 
   .main-subtitle{
     font-size:14px;
   }
