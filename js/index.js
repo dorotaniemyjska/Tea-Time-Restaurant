@@ -9,7 +9,7 @@ var flkty = new Flickity( elem, {
   
   var navSelector = '.navigation';
   var linksSelector = '.navigation a';
-  var scrollSpeed = 30;
+  var scrollSpeed = 50;
   
   var timer, targetPosition;
 
