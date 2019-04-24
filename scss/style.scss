@@ -18,6 +18,7 @@ $transition: all 0.5s;
 *:focus {
   box-shadow: none;
 }
+
 .navigation {
   background-color: #4d4b51;
   padding: 12px 0;
@@ -410,6 +411,7 @@ img {
   }
   .navigation{
     position:static;
+    height:100%;
   }
  
   .main-subtitle{
