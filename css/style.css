@@ -405,7 +405,7 @@ img {
   .column {
     width: 100%;
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 7px;
   }
 
   .page-footer p {
@@ -420,6 +420,7 @@ img {
 
   .navigation {
     position: static;
+    height: 100%;
   }
 
   .main-subtitle {
