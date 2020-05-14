@@ -6,4 +6,4 @@
 * HTML
 * CSS
 
-demo: 
+demo: https://dorotaniemyjska.github.io/tea-time-restaurant/
