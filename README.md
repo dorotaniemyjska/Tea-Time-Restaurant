@@ -1,5 +1,5 @@
 # tea-time-restaurant
-##### strona stworzona na podstawie wyzwania z Kodillą
+##### strona stworzona na podstawie wyzwania z Kodillą (sekcja z licznikami własny pomysł)
 
 
 ### Technologie:
