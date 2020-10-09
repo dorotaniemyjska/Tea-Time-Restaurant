@@ -1,9 +1,19 @@
-# tea-time-restaurant
-##### strona stworzona na podstawie wyzwania z Kodillą (sekcja z licznikami własny pomysł)
+# Tea time restaurant
 
+## demo
 
-### Technologie:
+https://dorotaniemyjska.github.io/tea-time-restaurant/
+
+## Technologies
 * HTML
 * CSS
 
-demo: https://dorotaniemyjska.github.io/tea-time-restaurant/
+### strona stworzona na podstawie wyzwania z Kodillą (własny project)
+
+
+
+
+
+
+
+
